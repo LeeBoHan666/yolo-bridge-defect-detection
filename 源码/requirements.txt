@@ -1,0 +1,29 @@
+# ============================================================
+# 桥梁缺陷智能检测系统 - Python 依赖清单
+# Python 3.13.13  ||  CUDA 13.2  ||  PyTorch 2.12.0
+#
+# 安装: pip install -r requirements.txt
+# 清华镜像加速: pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# ============================================================
+
+# ---- 深度学习框架 (CUDA 13.2, 先装) ----
+torch==2.12.0
+torchvision==0.27.0
+
+# ---- YOLO 目标检测 ----
+ultralytics==8.4.54
+
+# ---- 图像处理 ----
+opencv-python==4.13.0.92
+Pillow==12.2.0
+
+# ---- 网络 & 数据 ----
+requests==2.34.2
+numpy==2.4.6
+
+# ---- QLoRA 微调 (训练用, 仅推理可跳过) ----
+transformers==5.5.0
+peft==0.19.1
+bitsandbytes==0.49.2
+accelerate==1.13.0
+datasets==4.3.0

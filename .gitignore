@@ -1,0 +1,70 @@
+# Python cache and virtual environments
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+
+# Java build output and IDE state
+*.class
+.idea/
+.vscode/
+
+# Runtime outputs, local configuration, and embedded H2 databases
+**/aioutput/
+**/*.mv.db
+**/*.trace.db
+**/*.lock.db
+**/*.log
+/源码/output/
+/源码/models/BoxPR_curve.png
+/源码/models/confusion_matrix*.png
+/源码/models/results.csv
+/源码/models/results.png
+/源码/app/src/test_warm.json
+/源码/]
+/源码/tm.py
+
+# Large local SDK and downloaded archives
+/源码/javafx-sdk/
+/源码/javafx-sdk.zip
+/llama-main.zip
+
+# Local dataset copies and training output
+/原始图片/
+/Multi-defect-type-beam-bridge-dataset-GYU-DET-main/
+/源码/data/*
+!/源码/data/README.md
+**/runs/
+**/weights/
+
+# Pretrained checkpoints stored beside experiment files
+/源码/app/src/yolo*.pt
+
+# Local training runs and unrelated or temporary root-level material
+/3090-4/
+/《人工智能基础B》期末大作业布置通知.pdf
+/34.JPG
+/黄河.jpeg
+/大报告.docx
+/大报告_完整版.docx
+/大报告_完整版.md
+/大报告_最终版.md
+/大报告_最终版.docx
+/情绪成长伙伴项目报告书.pdf
+/CLAUDE_CONTEXT.md
+/_paper_results.txt
+/compare_report.txt
+/eval_test.py
+/resolution_ablation.json
+/t1.py
+/开发软件.txt
+/~$*
+/md2docx.py
+
+# Large model files and local secrets
+*.gguf
+*.safetensors
+.env
+.env.*
+*.key
+*.pem

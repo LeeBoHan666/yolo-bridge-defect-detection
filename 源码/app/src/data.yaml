@@ -1,0 +1,13 @@
+
+path: D:/yolo
+train: images\train
+val: images\val
+test: images\test
+nc: 6
+names:
+  0: Crack
+  1: Breakage
+  2: Comb
+  3: Hole
+  4: Reinforcement
+  5: Seepage
